@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edddd4;
+  font-family: arial, sans-serif;
+  color: #463f3a;
+
+}
+
+.wrapper {
+  background: #ffffff;
+  width: 98%;
+  max-width: 800px;
+  margin:0 auto;
+  padding: 12px 20px
+}
+
+h1 {
+  margin-bottom: .5em;
+  text-shadow: 2em;
+}
+
+h2 {
+  margin-bottom: .25em;
+  margin-top: 1em;
+  text-align: left;
+}
+
+h1, h2 {
+  color: #5a189a;
+}
+
+blockquote {
+  border-left: 3px solid #7b2cbf;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #f9f9f9;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.image {
+  text-align: center;
+  margin: 2em 0;
+}
+
+p.caption {
+  font-style: italic;
+  margin-top: .25;
+}
+
+a {
+  color: #7b2cbf;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 8px;
+  color: #463f3a;
+}
+
+li {
+  text-align: left;
+}
+
+p {
+  text-align: center;
+  line-height: 1.4em;
+}
+
+header {
+  background-image: url(../Images/45degreee_fabric_@2x.png);
+  border-bottom: 3px solid #d2d2d2d2;
+  text-align:center;
+}
+
+footer.wrapper {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 2px solid #d2d2d2d2;
+}
+
+@media all and (min-width: 920px) {
+ article, aside {
+  float: left;
+}
+article {
+  width: 50%;
+  padding-right: 20px
+}
+
+aside {
+  width: 50%;
+}
+aside h2:first-child {
+  margin-top: 14px;
+}
